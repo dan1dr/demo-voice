@@ -11,7 +11,7 @@ from elevenlabs.conversational_ai.conversation import Conversation
 from twilio_audio import TwilioAudioInterface
 from starlette.websockets import WebSocketDisconnect
 
-load_dotenv("../../.env")
+load_dotenv("../../../.env")
 
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 ELEVENLABS_AGENT_ID = os.getenv("ELEVENLABS_AGENT_ID")
